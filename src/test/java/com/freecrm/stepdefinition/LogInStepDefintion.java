@@ -39,6 +39,7 @@ public  class LogInStepDefintion extends TestBase{
 	@Then("^user closes the browser$")
 	public void user_closes_the_browser(){
 		driver.close();
+		System.out.println("Hello_Pull");
 	}
 	
 }
